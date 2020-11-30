@@ -1,0 +1,65 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    height: 600px;
+}
+.centered {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  color: red;
+  font-size: 35px;
+}
+img{
+    width: 800px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0;
+    object-position:0 0 10px 0;
+}
+.Parent{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 25px;
+    font-size: 30px;
+    border: 2px solid red sticky;
+    box-shadow: 0 0 20px white;
+    
+
+}
+.Parent tr:nth-child(1) {
+    position: sticky;
+    top: 0;
+    
+}
+.Parent th {
+    background-color: green;
+    color:white;
+    text-align:left;
+}
+
+th,td {
+    padding: 15px 17px;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #e99999;
+}
+
+tr:nth-child(odd):hover{
+    background-color: yellow;
+    color: gray;
+
+
+}
